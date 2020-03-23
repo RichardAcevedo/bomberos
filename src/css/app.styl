@@ -1,0 +1,265 @@
+@import './themes/common.variables';
+
+$light = 300
+$regular = 400
+$medium = 500
+$semibold = 600
+$bold = 700
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $tertiary;
+}
+
+// Estilos del menu principal - Dashboard
+
+.app-menu .q-expansion-item--standard .q-expansion-item__container .q-item .q-item__section--avatar i {
+    color: $primary;
+}
+
+.app-menu .q-expansion-item--expanded .q-expansion-item__container .q-item .q-item__section .q-item__label {
+    font-weight: $bold;
+    color: $primary;
+}
+
+.app-menu .q-expansion-item--expanded .q-expansion-item__content .q-item.q-router-link--active {
+    color: $primary;
+    font-weight: $light;
+    background: $secondary;
+}
+
+.app-menu .q-item .q-item__section--avatar i {
+  color: $primary;
+}
+
+.app-menu .q-item.q-router-link--active {
+    color: $primary;
+    font-weight: $light;
+    background: $secondary;
+}
+
+.app-menu .q-expansion-item__content .q-item {
+    border-radius: 0 10px 10px 0;
+    margin-right: 12px;
+}
+
+// Clases de colores
+
+.text-tertiary {
+    color: $tertiary;
+}
+
+.text-default {
+    color: $primary;
+}
+
+.bg-default {
+    background: $primary;
+}
+
+// Estilos para input 
+
+.ControlForm.q-field--focused .q-field__inner .q-field__control,
+.ControlForm .q-field__inner .q-field__control {
+    color: $primary;
+}
+
+.ControlForm .q-field__label {
+    font-weight: $bold;
+    color: $tertiary;
+}
+
+.ControlForm .q-field__inner .q-field__bottom {
+    padding: 4px 8px;
+}
+
+.OtherForm .q-field__label {
+    font-weight: $bold;
+    color: $tertiary;
+}
+
+.OtherForm .q-field__inner .q-field__bottom {
+    padding: 4px 8px;
+}
+
+.inputMoney {
+  margin-bottom: 1px;
+  box-shadow: none;
+  font-size: 14px;
+  border: 0px solid #DFE1F4;
+  outline: none 0px $primary;
+  align-self: baseline;
+  background: transparent;
+}
+
+
+// Alto de background si esta dentro del layout
+
+.background-height {
+    min-height: calc(100vh - 64px);
+}
+
+// empty state
+
+.empty-state {
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-position: center bottom;
+  margin-bottom: 21px;
+}
+
+.normal-section {
+    background-size: 150px;
+    height: 200px;
+}
+
+.small-section {
+    background-size: 100px;
+    height: 100px;
+}
+
+.empty-copy {
+  text-align: center;
+  font-size: 20px;
+  color: $tertiary;
+  font-weight: 700;
+  line-height: initial;
+  padding: 0px 20px;
+}
+
+// images of empty-state 
+
+.empty-courses {
+  background-image: url('~assets/courses.png');
+}
+
+.empty-educations {
+  background-image: url('~assets/educations.png');
+}
+
+.empty-experiences {
+  background-image: url('~assets/experiences.png');
+}
+
+.empty-informations {
+  background-image: url('~assets/informations.png');
+}
+
+.empty-trainings {
+  background-image: url('~assets/trainings.png');
+}
+
+.empty-awardTypes {
+  background-image: url('~assets/awardTypes.png');
+}
+
+.empty-persons {
+  background-image: url('~assets/persons.png');
+}
+
+.empty-awards {
+  background-image: url('~assets/awards.png');
+}
+
+.empty-curriculums {
+  background-image: url('~assets/curriculums.png');
+}
+
+.empty-promotions {
+  background-image: url('~assets/promotions.png');
+}
+
+.empty-appointments {
+  background-image: url('~assets/appointments.png');
+}
+
+.empty-sanctions {
+  background-image: url('~assets/sanctions.png');
+}
+
+.empty-ranks {
+  background-image: url('~assets/ranks.png');
+}
+
+.empty-rankCategories {
+  background-image: url('~assets/rankCategories.png');
+}
+
+.empty-positions {
+  background-image: url('~assets/positions.png');
+}
+
+.empty-logs {
+  background-image: url('~assets/logs.png');
+}
+
+.empty-vehicleTypes {
+  background-image: url('~assets/vehicleTypes.png');
+}
+
+.empty-issueTypes {
+  background-image: url('~assets/issueTypes.png');
+}
+
+.empty-elements {
+  background-image: url('~assets/elements.png');
+}
+
+.empty-vehicles {
+  background-image: url('~assets/vehicles.png');
+}
+
+.empty-radios {
+  background-image: url('~assets/radios.png');
+}
+
+.empty-directory {
+  background-image: url('~assets/directory.png');
+}
+
+.empty-emergencyNumbers {
+  background-image: url('~assets/emergencyNumbers.png');
+}
+
+.empty-companyTypes {
+  background-image: url('~assets/companyTypes.png');
+}
+
+.empty-companies {
+  background-image: url('~assets/companies.png');
+}
+
+.empty-extinguisherTypes {
+  background-image: url('~assets/extinguisherTypes.png');
+}
+
+.empty-customers {
+  background-image: url('~assets/customers.png');
+}
+
+.empty-certificates {
+  background-image: url('~assets/certificates.png');
+}
+
+.empty-extinguishers {
+  background-image: url('~assets/extinguishers.png');
+}
+
+.empty-bills {
+  background-image: url('~assets/bills.png');
+}
+
+.title {
+  color: $tertiary;
+  font-size: 28px;
+  font-weight: $bold;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: $bold;
+  color: $tertiary;
+}

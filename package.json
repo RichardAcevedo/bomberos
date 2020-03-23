@@ -1,0 +1,43 @@
+{
+  "name": "bomberos",
+  "version": "0.0.1",
+  "description": "Cuerpo de bomberos voluntarios de Villa del Rosario",
+  "productName": "Bomberos voluntarios Villa del rosario",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Gerson Guerrero <jairguerrerosilvera@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.6.0",
+    "axios": "^0.18.1",
+    "dayjs": "^1.8.23",
+    "install": "^0.13.0",
+    "jspdf": "^1.5.3",
+    "pdfmake": "^0.1.65",
+    "quasar": "^1.9.10",
+    "v-money": "^0.8.1",
+    "vue-i18n": "^8.15.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.6.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "license": "ISC"
+}
