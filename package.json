@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.6.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "dayjs": "^1.8.23",
     "install": "^0.13.0",
     "jspdf": "^1.5.3",
